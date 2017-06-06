@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/StatusBarColor</item>
+        <item name="android:navigationBarColor">@color/StatusBarColor</item>
+    </style>
+
+    <style name="Theme.Splash.Light.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/StatusBarColor</item>
+        <item name="colorPrimary">@color/StatusBarColor</item>
+        <item name="android:navigationBarColor">@color/StatusBarColor</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/StatusBarColor</item>
+        <item name="colorPrimaryDark">@color/StatusBarColor</item>
+        <item name="colorAccent">@color/StatusBarColor</item>
+        <item name="android:statusBarColor">@color/StatusBarColor</item>
+        <item name="android:navigationBarColor">@color/StatusBarColor</item>
+    </style>
+</resources>

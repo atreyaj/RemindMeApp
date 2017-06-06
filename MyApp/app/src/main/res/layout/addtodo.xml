@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Name of Task"
+        android:textAlignment="center"
+        android:id="@+id/name"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/date"
+        android:textAlignment="center"
+        android:hint="Click to add date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/details"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Add Details"
+        android:textAlignment="center"
+        android:layout_marginTop="120dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu_camera"
+        android:id="@+id/getScanner"
+        android:backgroundTint="@color/cv2"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="132dp"
+        android:layout_alignParentRight="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/details"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Ok"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/splashBack" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:id="@+id/btnCancel"
+            android:background="@android:color/transparent"
+            android:textColor="@color/splashBack" />
+
+    </LinearLayout>
+</RelativeLayout>

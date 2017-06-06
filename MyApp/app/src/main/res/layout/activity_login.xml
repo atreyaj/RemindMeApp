@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgrnd"
+    android:layout_height="match_parent"
+    tools:context="com.atreya.myapp.LoginActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@color/listBackgroud"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:text="Welcome"
+        android:layout_marginTop="68dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="22dp"
+
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:text="We hope you enjoy \n the stay!"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:inputType="textVisiblePassword"
+        android:hint="Name"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="21dp"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:id="@+id/addFAB"
+        android:src="@drawable/loginbt"
+        android:onClick="login"
+        android:elevation="5dp"
+        app:backgroundTint="@color/white"
+        android:background="@color/white"
+        android:clickable="true"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</RelativeLayout>

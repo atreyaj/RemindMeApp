@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_height="match_parent"
+    tools:context="com.atreya.myapp.HomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome "
+        android:textSize="28dp"
+        android:textColor="@color/StatusBarColor"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView6" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User name"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:textColor="@color/StatusBarColor"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView6"
+        android:id="@+id/textView2" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="@color/cv1"
+        android:id="@+id/cardView1"
+        android:layout_gravity="center"
+        android:onClick="onCardClick"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To Do"
+            android:textSize="16dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/alphaWhite"
+            android:src="@drawable/todo" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="@color/cv4"
+        android:id="@+id/cardView2"
+        android:layout_gravity="center"
+        android:onClick="onCardClick"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_alignTop="@+id/cardView1"
+        android:layout_toRightOf="@+id/cardView1"
+        android:layout_toEndOf="@+id/cardView1">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/alphaWhite"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/events" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Events"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="15dp"/>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="@color/cv3"
+        android:id="@+id/cardView3"
+        android:layout_gravity="center"
+        android:onClick="onCardClick"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/cardView1"
+        android:layout_alignLeft="@+id/cardView1"
+        android:layout_alignStart="@+id/cardView1">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/alphaWhite"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/shopon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop ON"
+            android:textSize="16dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="15dp"/>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/cardView4"
+        app:cardBackgroundColor="@color/cv2"
+        android:layout_gravity="center"
+        android:onClick="onCardClick"
+        app:cardCornerRadius="8dp"
+        android:layout_alignTop="@+id/cardView3"
+        android:layout_alignLeft="@+id/cardView2"
+        android:layout_alignStart="@+id/cardView2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PIc Box"
+            android:textSize="16dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="63dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/alphaWhite"
+            android:src="@drawable/picbox" />
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

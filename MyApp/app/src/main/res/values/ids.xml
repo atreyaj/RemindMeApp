@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <item name="bookingFAB" type="id"/>
+    <item name="request_quoteFAB" type="id"/>
+    <item name="request_testRideFAB" type="id"/>
+    <item name="downloadFAB" type="id"/>
+    <item name="openCam" type="id"/>
+
+    <item name="renewFAB" type="id"/>
+    <item name="callFAB" type="id"/>
+    <item name="download_copyFAB" type="id"/>
+</resources>

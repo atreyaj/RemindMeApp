@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/StatusBarColor</item>
+        <item name="colorPrimaryDark">@color/StatusBarColor</item>
+        <item name="colorAccent">@color/StatusBarColor</item>
+    </style>
+
+    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Splash.Light.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimaryDark">@color/StatusBarColor</item>
+        <item name="colorPrimary">@color/StatusBarColor</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="apptheme" parent="Splash" >
+        <item name="colorAccent">@color/StatusBarColor</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:elevation" tools:ignore="NewApi">4dp</item>
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+</resources>

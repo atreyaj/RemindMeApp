@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white">
+
+
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cal"
+        android:elevation="5dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:mcv_showOtherDates="all"
+        app:mcv_selectionColor="@color/cv2"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/subCatName"
+        android:background="@android:color/transparent"
+        android:hint="Enter Event"
+        android:focusable="true"
+        android:layout_gravity="center"
+        android:textColor="@color/Black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        />
+    <View
+        android:layout_width="220dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/linearLayout1"
+        android:background="@color/gray"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Ok"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/splashBack" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:id="@+id/btnCancel"
+            android:background="@android:color/transparent"
+            android:textColor="@color/splashBack" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

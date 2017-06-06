@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/backgrnd"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_height="match_parent"
+    tools:context="com.atreya.myapp.EventsActivity"
+    android:orientation="vertical">
+
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:elevation="5dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_showOtherDates="all"
+        app:mcv_selectionColor="@color/cv2"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="5dp"
+        android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:id="@+id/txtspl"
+    android:text="Whats Special"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/txtspl"
+            android:text="No Event"
+            android:id="@+id/eventtxt"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/addFAB"
+            android:src="@drawable/plus_btn"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:layout_gravity="bottom|right"
+            android:clickable="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>

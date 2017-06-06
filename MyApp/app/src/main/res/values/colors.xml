@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#d32f2f</color>
+    <color name="colorAccent">#ef5350</color>
+    <color name="StatusBarColor">#008e9c</color>
+
+
+
+    <color name="Black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#d1d1d1</color>
+    <color name="light">#85009688</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange">#faa040</color>
+    <color name="gray">#a21d1c1c</color>
+    <color name="black">#000000</color>
+    <color name="white_transparent">#96ffffff</color>
+    <color name="alphaWhite">#beffffff</color>
+    <color name="black_semi_transparent">#89000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#96808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="colorPrimary_transparent">#ce3f51b5</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="blacktranseperent">#cc000000</color>
+    <color name="blue_button">#eb1026cc</color>
+    <color name="lightgrey">#ebdcdde4</color>
+    <color name="splashBack">#48b04b</color>
+
+    <color name="AppBarColor">#89c541</color>
+    <color name="backgrnd">#E8F5E9</color>
+    <color name="homebtnback">#00CA4C</color>
+    <color name="listBackgroud">#a7008e9c</color>
+    <color name="cv1">#F2612A</color>
+    <color name="cv2">#008DDE</color>
+    <color name="cv3">#A436A5</color>
+    <color name="cv4">#FDAF17</color>
+
+
+
+</resources>
