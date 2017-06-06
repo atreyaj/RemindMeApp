@@ -16,8 +16,6 @@ import java.util.ArrayList;
  * Created by atreya on 31/5/17.
  */
 
-
-
 public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
 
     Context context;

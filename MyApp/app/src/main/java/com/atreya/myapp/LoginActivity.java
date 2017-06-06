@@ -23,7 +23,6 @@ EditText userName,Password;
 
     }
 
-
     public void login(View v)
     {
         String user=userName.getText().toString();
